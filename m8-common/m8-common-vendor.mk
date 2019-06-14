@@ -121,6 +121,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8-common/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libposteffect.so:system/vendor/lib/libposteffect.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
+    vendor/htc/m8-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libtuning_aec.so:system/vendor/lib/libtuning_aec.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libtuning_aec_ov2722_hdr.so:system/vendor/lib/libtuning_aec_ov2722_hdr.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libtuning_aec_ov2722_subcam_video.so:system/vendor/lib/libtuning_aec_ov2722_subcam_video.so \
