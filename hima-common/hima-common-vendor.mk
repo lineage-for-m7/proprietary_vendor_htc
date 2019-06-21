@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/calibration:system/etc/calibration \
-    vendor/htc/hima-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0100.0102.hcd:system/etc/firmware/BCM4354A2_001.003.015.0100.0102.hcd \
+    vendor/htc/hima-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0100.0102.hcd:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/bcm4354A2.hcd \
     vendor/htc/hima-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/alIAF_InData_4M2M:system/etc/firmware/alIAF_InData_4M2M \
