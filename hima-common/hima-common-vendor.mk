@@ -168,7 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/htc/hima-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/htc/hima-common/proprietary/vendor/lib/hw/camera.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8994.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.default.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/hw/consumerir.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.msm8994.so \
     vendor/htc/hima-common/proprietary/vendor/lib/hw/vulkan.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8994.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libBeautyChat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBeautyChat.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
@@ -801,7 +801,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/hw/consumerir.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8994.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/hw/sensors.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.msm8994.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/hw/vulkan.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8994.so \
