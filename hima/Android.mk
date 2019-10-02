@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter himaul himawl himawhl,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),hima)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libTimeService
