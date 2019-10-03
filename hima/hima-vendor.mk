@@ -23,12 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/htc/hima/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/htc/hima/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/htc/hima/proprietary/etc/calibration:system/etc/calibration \
     vendor/htc/hima/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
     vendor/htc/hima/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/hima/proprietary/etc/firmware/alIAF_InData_4M2M:system/etc/firmware/alIAF_InData_4M2M \
-    vendor/htc/hima/proprietary/etc/firmware/fw_bcm4356.bin:system/etc/firmware/fw_bcm4356.bin \
-    vendor/htc/hima/proprietary/etc/firmware/fw_bcm4356_apsta.bin:system/etc/firmware/fw_bcm4356_apsta.bin \
     vendor/htc/hima/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
     vendor/htc/hima/proprietary/etc/hldm.bin:system/etc/hldm.bin \
     vendor/htc/hima/proprietary/etc/hltof.bin:system/etc/hltof.bin \
@@ -51,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/htc/hima/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/htc/hima/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
+    vendor/htc/hima/proprietary/vendor/etc/calibration:$(TARGET_COPY_OUT_VENDOR)/etc/calibration \
     vendor/htc/hima/proprietary/vendor/etc/cir.img:system/etc/cir.img \
     vendor/htc/hima/proprietary/vendor/etc/firmware/BCM4356A2_001.003.015.0100.0102.hcd:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/bcm4354A2.hcd \
     vendor/htc/hima/proprietary/vendor/etc/firmware/dxcprm.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/dxcprm.b00 \
@@ -58,6 +56,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima/proprietary/vendor/etc/firmware/dxcprm.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/dxcprm.b02 \
     vendor/htc/hima/proprietary/vendor/etc/firmware/dxcprm.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/dxcprm.b03 \
     vendor/htc/hima/proprietary/vendor/etc/firmware/dxcprm.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/dxcprm.mdt \
+    vendor/htc/hima/proprietary/vendor/etc/firmware/fw_bcm4356.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4356.bin \
+    vendor/htc/hima/proprietary/vendor/etc/firmware/fw_bcm4356_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4356_apsta.bin \
     vendor/htc/hima/proprietary/vendor/etc/firmware/mc_v2.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mc_v2.b00 \
     vendor/htc/hima/proprietary/vendor/etc/firmware/mc_v2.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mc_v2.b01 \
     vendor/htc/hima/proprietary/vendor/etc/firmware/mc_v2.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mc_v2.b02 \
