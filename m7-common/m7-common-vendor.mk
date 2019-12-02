@@ -1,5 +1,6 @@
 # Copyright (C) 2013-2016 The CyanogenMod Project
 # Copyright (C) 2017-2020 The LineageOS Project
+# Copyright (C) 2020 Android Ice Cold Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -176,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/lib/libimage-omx-common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimage-omx-common.so \
     vendor/htc/m7-common/proprietary/lib/libimu.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimu.so \
     vendor/htc/m7-common/proprietary/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_api_v02.so \
+    vendor/htc/m7-common/proprietary/lib/libmercury.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmercury.so \
     vendor/htc/m7-common/proprietary/lib/libmllite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmllite.so \
     vendor/htc/m7-common/proprietary/lib/libmlplatform.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmlplatform.so \
     vendor/htc/m7-common/proprietary/lib/libmm-abl-oem.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmm-abl-oem.so \
