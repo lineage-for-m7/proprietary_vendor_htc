@@ -1,5 +1,5 @@
 # Copyright (C) 2013-2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -195,6 +195,54 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/m7-common/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
     vendor/htc/m7-common/proprietary/lib/libwriteback.so:system/lib/libwriteback.so \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_00.png:system/recovery/root/res/offmode_charging_images/charging_00.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_01.png:system/recovery/root/res/offmode_charging_images/charging_01.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_02.png:system/recovery/root/res/offmode_charging_images/charging_02.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_03.png:system/recovery/root/res/offmode_charging_images/charging_03.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_04.png:system/recovery/root/res/offmode_charging_images/charging_04.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_05.png:system/recovery/root/res/offmode_charging_images/charging_05.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_06.png:system/recovery/root/res/offmode_charging_images/charging_06.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_07.png:system/recovery/root/res/offmode_charging_images/charging_07.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_08.png:system/recovery/root/res/offmode_charging_images/charging_08.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_09.png:system/recovery/root/res/offmode_charging_images/charging_09.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/error.png:system/recovery/root/res/offmode_charging_images/error.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_0.png:system/recovery/root/res/offmode_charging_images/r_0.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_1.png:system/recovery/root/res/offmode_charging_images/r_1.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_2.png:system/recovery/root/res/offmode_charging_images/r_2.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_3.png:system/recovery/root/res/offmode_charging_images/r_3.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_4.png:system/recovery/root/res/offmode_charging_images/r_4.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_5.png:system/recovery/root/res/offmode_charging_images/r_5.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_6.png:system/recovery/root/res/offmode_charging_images/r_6.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_7.png:system/recovery/root/res/offmode_charging_images/r_7.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_8.png:system/recovery/root/res/offmode_charging_images/r_8.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_9.png:system/recovery/root/res/offmode_charging_images/r_9.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/r_percent.png:system/recovery/root/res/offmode_charging_images/r_percent.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_0.png:system/recovery/root/res/offmode_charging_images/w_0.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_1.png:system/recovery/root/res/offmode_charging_images/w_1.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_2.png:system/recovery/root/res/offmode_charging_images/w_2.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_3.png:system/recovery/root/res/offmode_charging_images/w_3.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_4.png:system/recovery/root/res/offmode_charging_images/w_4.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_5.png:system/recovery/root/res/offmode_charging_images/w_5.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_6.png:system/recovery/root/res/offmode_charging_images/w_6.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_7.png:system/recovery/root/res/offmode_charging_images/w_7.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_8.png:system/recovery/root/res/offmode_charging_images/w_8.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_9.png:system/recovery/root/res/offmode_charging_images/w_9.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/w_percent.png:system/recovery/root/res/offmode_charging_images/w_percent.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_0.png:system/recovery/root/res/offmode_charging_images/y_0.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_1.png:system/recovery/root/res/offmode_charging_images/y_1.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_2.png:system/recovery/root/res/offmode_charging_images/y_2.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_3.png:system/recovery/root/res/offmode_charging_images/y_3.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_4.png:system/recovery/root/res/offmode_charging_images/y_4.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_5.png:system/recovery/root/res/offmode_charging_images/y_5.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_6.png:system/recovery/root/res/offmode_charging_images/y_6.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_7.png:system/recovery/root/res/offmode_charging_images/y_7.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_8.png:system/recovery/root/res/offmode_charging_images/y_8.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_9.png:system/recovery/root/res/offmode_charging_images/y_9.png \
+    vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/y_percent.png:system/recovery/root/res/offmode_charging_images/y_percent.png \
+    vendor/htc/m7-common/proprietary/recovery/root/sbin/choice_fn:system/recovery/root/sbin/choice_fn \
+    vendor/htc/m7-common/proprietary/recovery/root/sbin/detect_key:system/recovery/root/sbin/detect_key \
+    vendor/htc/m7-common/proprietary/recovery/root/sbin/offmode_charging:system/recovery/root/sbin/offmode_charging \
+    vendor/htc/m7-common/proprietary/recovery/root/sbin/power_test:system/recovery/root/sbin/power_test \
     vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
