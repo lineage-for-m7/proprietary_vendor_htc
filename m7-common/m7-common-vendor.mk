@@ -119,7 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.config \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.eq \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.preset \
-    vendor/htc/m7-common/proprietary/lib/hw/camera.vendor.msm8960.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.msm8960.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8960.so \
     vendor/htc/m7-common/proprietary/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/consumerir.default.so \
     vendor/htc/m7-common/proprietary/lib/sensors.m7.so:$(TARGET_COPY_OUT_SYSTEM)/lib/sensors.m7.so \
     vendor/htc/m7-common/proprietary/lib/libBeautyChat.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libBeautyChat.so \
