@@ -121,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.preset \
     vendor/htc/m7-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8960.so \
     vendor/htc/m7-common/proprietary/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/consumerir.default.so \
-    vendor/htc/m7-common/proprietary/lib/sensors.m7.so:$(TARGET_COPY_OUT_SYSTEM)/lib/sensors.m7.so \
     vendor/htc/m7-common/proprietary/lib/libBeautyChat.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libBeautyChat.so \
     vendor/htc/m7-common/proprietary/lib/libHTC_DIS.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libHTC_DIS.so \
     vendor/htc/m7-common/proprietary/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libI420colorconvert.so \
@@ -282,4 +281,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/vendor/lib/libuiblur.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuiblur.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libwvdrm_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvdrm_L1.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvm.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/sensors.m7.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.m7.so \
     vendor/htc/m7-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
