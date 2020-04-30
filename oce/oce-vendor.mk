@@ -1237,6 +1237,7 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     PowerOffAlarm \
     qcrilmsgtunnel \
+    SmartcardService \
     ims \
     WfdService \
     WfdCommon
