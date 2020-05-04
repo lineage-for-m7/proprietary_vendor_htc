@@ -35,9 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/m7-common/proprietary/etc/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a300_pfp.fw \
     vendor/htc/m7-common/proprietary/etc/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a300_pm4.fw \
-    vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_apsta_b0.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fw_bcm4335_apsta_b0.bin \
-    vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_b0.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fw_bcm4335_b0.bin \
-    vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fw_bcm4335_p2p_b0.bin \
     vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hcheck.b00 \
     vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hcheck.b01 \
     vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hcheck.b02 \
@@ -251,6 +248,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/recovery/root/sbin/offmode_charging:$(TARGET_COPY_OUT_SYSTEM)/recovery/root/sbin/offmode_charging \
     vendor/htc/m7-common/proprietary/recovery/root/sbin/power_test:$(TARGET_COPY_OUT_SYSTEM)/recovery/root/sbin/power_test \
     vendor/htc/m7-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
+    vendor/htc/m7-common/proprietary/vendor/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd \
+    vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_apsta_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_apsta_b0.bin \
+    vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_b0.bin \
+    vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_p2p_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_p2p_b0.bin \
     vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b00 \
     vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b01 \
     vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b02 \
