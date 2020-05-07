@@ -19,20 +19,19 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/htc/m7-common
 
-
 PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/bin/akmd:$(TARGET_COPY_OUT_SYSTEM)/bin/akmd \
     vendor/htc/m7-common/proprietary/bin/cir_fw_update:$(TARGET_COPY_OUT_SYSTEM)/bin/cir_fw_update \
+    vendor/htc/m7-common/proprietary/bin/efsks:$(TARGET_COPY_OUT_SYSTEM)/bin/efsks \
     vendor/htc/m7-common/proprietary/bin/ks:$(TARGET_COPY_OUT_SYSTEM)/bin/ks \
     vendor/htc/m7-common/proprietary/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/mm-qcamera-daemon \
     vendor/htc/m7-common/proprietary/bin/mpdecision:$(TARGET_COPY_OUT_SYSTEM)/bin/mpdecision \
-    vendor/htc/m7-common/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd \
-    vendor/htc/m7-common/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
-    vendor/htc/m7-common/proprietary/bin/thermald:$(TARGET_COPY_OUT_SYSTEM)/bin/thermald \
-    vendor/htc/m7-common/proprietary/bin/efsks:$(TARGET_COPY_OUT_SYSTEM)/bin/efsks \
     vendor/htc/m7-common/proprietary/bin/netmgrd:$(TARGET_COPY_OUT_SYSTEM)/bin/netmgrd \
     vendor/htc/m7-common/proprietary/bin/qcks:$(TARGET_COPY_OUT_SYSTEM)/bin/qcks \
     vendor/htc/m7-common/proprietary/bin/qmuxd:$(TARGET_COPY_OUT_SYSTEM)/bin/qmuxd \
+    vendor/htc/m7-common/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd \
+    vendor/htc/m7-common/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
+    vendor/htc/m7-common/proprietary/bin/thermald:$(TARGET_COPY_OUT_SYSTEM)/bin/thermald \
     vendor/htc/m7-common/proprietary/etc/agps_rm:$(TARGET_COPY_OUT_SYSTEM)/etc/agps_rm \
     vendor/htc/m7-common/proprietary/etc/cir.img:$(TARGET_COPY_OUT_SYSTEM)/etc/cir.img \
     vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ILP0100_IPM_Code_out.bin \
@@ -120,10 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.config \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.eq \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.preset \
-    vendor/htc/m7-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8960.so \
     vendor/htc/m7-common/proprietary/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/consumerir.default.so \
-    vendor/htc/m7-common/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptX_encoder.so \
-    vendor/htc/m7-common/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptXHD_encoder.so \
     vendor/htc/m7-common/proprietary/lib/libBeautyChat.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libBeautyChat.so \
     vendor/htc/m7-common/proprietary/lib/libHTC_DIS.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libHTC_DIS.so \
     vendor/htc/m7-common/proprietary/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libI420colorconvert.so \
@@ -170,10 +166,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/lib/libchromatix_vd6869_zoe.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_vd6869_zoe.so \
     vendor/htc/m7-common/proprietary/lib/libchromatix_vd6869_zsl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_vd6869_zsl.so \
     vendor/htc/m7-common/proprietary/lib/libcsd-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcsd-client.so \
+    vendor/htc/m7-common/proprietary/lib/libdiag.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag.so \
     vendor/htc/m7-common/proprietary/lib/libdrmdecrypt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdrmdecrypt.so \
+    vendor/htc/m7-common/proprietary/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdsi_netctrl.so \
+    vendor/htc/m7-common/proprietary/lib/libdsutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdsutils.so \
     vendor/htc/m7-common/proprietary/lib/libgemini.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgemini.so \
     vendor/htc/m7-common/proprietary/lib/libgeofence.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgeofence.so \
     vendor/htc/m7-common/proprietary/lib/libhtccamera_yushaniiproc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhtccamera_yushaniiproc.so \
+    vendor/htc/m7-common/proprietary/lib/libidl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libidl.so \
     vendor/htc/m7-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/htc/m7-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/htc/m7-common/proprietary/lib/libimage-omx-common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimage-omx-common.so \
@@ -200,14 +200,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/lib/libmmstillomx.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmstillomx.so \
     vendor/htc/m7-common/proprietary/lib/libmpl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpl.so \
     vendor/htc/m7-common/proprietary/lib/libmpl_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpl_jni.so \
+    vendor/htc/m7-common/proprietary/lib/libnetmgr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnetmgr.so \
     vendor/htc/m7-common/proprietary/lib/liboemcamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboemcamera.so \
     vendor/htc/m7-common/proprietary/lib/libposteffect.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libposteffect.so \
-    vendor/htc/m7-common/proprietary/lib/libwriteback.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwriteback.so \
-    vendor/htc/m7-common/proprietary/lib/libdiag.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag.so \
-    vendor/htc/m7-common/proprietary/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdsi_netctrl.so \
-    vendor/htc/m7-common/proprietary/lib/libdsutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdsutils.so \
-    vendor/htc/m7-common/proprietary/lib/libidl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libidl.so \
-    vendor/htc/m7-common/proprietary/lib/libnetmgr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnetmgr.so \
     vendor/htc/m7-common/proprietary/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqcci_legacy.so \
     vendor/htc/m7-common/proprietary/lib/libqdi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqdi.so \
     vendor/htc/m7-common/proprietary/lib/libqdp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqdp.so \
@@ -219,6 +214,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_encdec.so \
     vendor/htc/m7-common/proprietary/lib/libqmiservices.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmiservices.so \
     vendor/htc/m7-common/proprietary/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libril-qcril-hook-oem.so \
+    vendor/htc/m7-common/proprietary/lib/libwriteback.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwriteback.so \
     vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_00.png:$(TARGET_COPY_OUT_SYSTEM)/recovery/root/res/offmode_charging_images/charging_00.png \
     vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_01.png:$(TARGET_COPY_OUT_SYSTEM)/recovery/root/res/offmode_charging_images/charging_01.png \
     vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_02.png:$(TARGET_COPY_OUT_SYSTEM)/recovery/root/res/offmode_charging_images/charging_02.png \
@@ -284,12 +280,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
     vendor/htc/m7-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/htc/m7-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8960.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libWVStreamControlAPI_L1.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptXHD_encoder.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptX_encoder.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
@@ -301,9 +301,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libsc-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsc-a3xx.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
-    vendor/htc/m7-common/proprietary/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libuiblur.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuiblur.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libwvdrm_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvdrm_L1.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvm.so \
-    vendor/htc/m7-common/proprietary/vendor/lib/sensors.m7.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.m7.so \
-    vendor/htc/m7-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
+    vendor/htc/m7-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/sensors.m7.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.m7.so
+
