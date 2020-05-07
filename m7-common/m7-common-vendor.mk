@@ -29,6 +29,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd \
     vendor/htc/m7-common/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
     vendor/htc/m7-common/proprietary/bin/thermald:$(TARGET_COPY_OUT_SYSTEM)/bin/thermald \
+    vendor/htc/m7-common/proprietary/bin/efsks:$(TARGET_COPY_OUT_SYSTEM)/bin/efsks \
+    vendor/htc/m7-common/proprietary/bin/netmgrd:$(TARGET_COPY_OUT_SYSTEM)/bin/netmgrd \
+    vendor/htc/m7-common/proprietary/bin/qcks:$(TARGET_COPY_OUT_SYSTEM)/bin/qcks \
+    vendor/htc/m7-common/proprietary/bin/qmuxd:$(TARGET_COPY_OUT_SYSTEM)/bin/qmuxd \
     vendor/htc/m7-common/proprietary/etc/agps_rm:$(TARGET_COPY_OUT_SYSTEM)/etc/agps_rm \
     vendor/htc/m7-common/proprietary/etc/cir.img:$(TARGET_COPY_OUT_SYSTEM)/etc/cir.img \
     vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ILP0100_IPM_Code_out.bin \
@@ -199,6 +203,22 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/lib/liboemcamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboemcamera.so \
     vendor/htc/m7-common/proprietary/lib/libposteffect.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libposteffect.so \
     vendor/htc/m7-common/proprietary/lib/libwriteback.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwriteback.so \
+    vendor/htc/m7-common/proprietary/lib/libdiag.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag.so \
+    vendor/htc/m7-common/proprietary/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdsi_netctrl.so \
+    vendor/htc/m7-common/proprietary/lib/libdsutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdsutils.so \
+    vendor/htc/m7-common/proprietary/lib/libidl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libidl.so \
+    vendor/htc/m7-common/proprietary/lib/libnetmgr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnetmgr.so \
+    vendor/htc/m7-common/proprietary/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqcci_legacy.so \
+    vendor/htc/m7-common/proprietary/lib/libqdi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqdi.so \
+    vendor/htc/m7-common/proprietary/lib/libqdp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqdp.so \
+    vendor/htc/m7-common/proprietary/lib/libqmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi.so \
+    vendor/htc/m7-common/proprietary/lib/libqmi_cci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_cci.so \
+    vendor/htc/m7-common/proprietary/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_client_qmux.so \
+    vendor/htc/m7-common/proprietary/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_common_so.so \
+    vendor/htc/m7-common/proprietary/lib/libqmi_csi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_csi.so \
+    vendor/htc/m7-common/proprietary/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_encdec.so \
+    vendor/htc/m7-common/proprietary/lib/libqmiservices.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmiservices.so \
+    vendor/htc/m7-common/proprietary/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libril-qcril-hook-oem.so \
     vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_00.png:$(TARGET_COPY_OUT_SYSTEM)/recovery/root/res/offmode_charging_images/charging_00.png \
     vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_01.png:$(TARGET_COPY_OUT_SYSTEM)/recovery/root/res/offmode_charging_images/charging_01.png \
     vendor/htc/m7-common/proprietary/recovery/root/res/offmode_charging_images/charging_02.png:$(TARGET_COPY_OUT_SYSTEM)/recovery/root/res/offmode_charging_images/charging_02.png \
