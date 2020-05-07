@@ -268,7 +268,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/recovery/root/sbin/offmode_charging:$(TARGET_COPY_OUT_SYSTEM)/recovery/root/sbin/offmode_charging \
     vendor/htc/m7-common/proprietary/recovery/root/sbin/power_test:$(TARGET_COPY_OUT_SYSTEM)/recovery/root/sbin/power_test \
     vendor/htc/m7-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/htc/m7-common/proprietary/vendor/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd \
+    vendor/htc/m7-common/proprietary/vendor/etc/firmware/BCM4335B0_002.001.006.0296.0299.hcd:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/BCM4335B0_002.001.006.0296.0299.hcd \
     vendor/htc/m7-common/proprietary/vendor/etc/firmware/bcm4335_prepatch.hcd:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/bcm4335_prepatch.hcd \
     vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_apsta_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_apsta_b0.bin \
     vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_b0.bin \
